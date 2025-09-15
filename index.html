@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive CSS & JS Demo</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Interactive Web Page</h1>
+
+  <!-- Button hover & click animation -->
+  <button id="animateBtn">Animate Box</button>
+
+  <!-- Sliding Box -->
+  <div id="animatedBox" class="box"></div>
+
+  <!-- Card Flip -->
+  <div class="card-container">
+    <div class="card" id="card">
+      <div class="front">Front</div>
+      <div class="back">Back</div>
+    </div>
+  </div>
+
+  <!-- Modal Trigger -->
+  <button id="modalBtn">Open Modal</button>
+
+  <!-- Modal -->
+  <div id="modal" class="modal">
+    <div class="modal-content">
+      <span id="closeModal" class="close">&times;</span>
+      <p>This is a popup modal!</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
